@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test de Filósofo - Gráfico de Araña</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Test de Filósofo - Gráfico de Araña</h1>
+    <form id="philosophyForm">
+      <div class="question">
+        <label>1. La búsqueda de la verdad es el propósito más elevado de la vida.</label>
+        <input type="number" name="q1" min="1" max="7">
+      </div>
+      <div class="question">
+        <label>2. Desarrollar virtudes y alcanzar la excelencia es la clave para una vida plena.</label>
+        <input type="number" name="q2" min="1" max="7">
+      </div>
+      <div class="question">
+        <label>3. La duda metódica es esencial para entender el mundo.</label>
+        <input type="number" name="q3" min="1" max="7">
+      </div>
+      <div class="question">
+        <label>4. Debemos desafiar y superar las normas tradicionales impuestas por la sociedad.</label>
+        <input type="number" name="q4" min="1" max="7">
+      </div>
+      <div class="question">
+        <label>5. La lucha por la igualdad y la justicia social es fundamental.</label>
+        <input type="number" name="q5" min="1" max="7">
+      </div>
+      <div class="question">
+        <label>6. Las conversaciones deben centrarse en la búsqueda conjunta de la verdad.</label>
+        <input type="number" name="q6" min="1" max="7">
+      </div>
+      <div class="question">
+        <label>7. La ética y la virtud deben guiar nuestras acciones.</label>
+        <input type="number" name="q7" min="1" max="7">
+      </div>
+      <div class="question">
+        <label>8. Es importante cuestionar todo lo que nos rodea.</label>
+        <input type="number" name="q8" min="1" max="7">
+      </div>
+      <div class="question">
+        <label>9. La autenticidad y la profundidad son esenciales en la vida.</label>
+        <input type="number" name="q9" min="1" max="7">
+      </div>
+      <div class="question">
+        <label>10. Empatía y comprensión son claves en las relaciones humanas.</label>
+        <input type="number" name="q10" min="1" max="7">
+      </div>
+      <div class="question">
+        <label>11. La muerte es una transición hacia otro tipo de conocimiento.</label>
+        <input type="number" name="q11" min="1" max="7">
+      </div>
+      <div class="question">
+        <label>12. La muerte debe ser aceptada como parte natural de la vida.</label>
+        <input type="number" name="q12" min="1" max="7">
+      </div>
+      <div class="question">
+        <label>13. La muerte es un misterio que debemos cuestionar.</label>
+        <input type="number" name="q13" min="1" max="7">
+      </div>
+      <div class="question">
+        <label>14. La muerte es una liberación de las limitaciones humanas.</label>
+        <input type="number" name="q14" min="1" max="7">
+      </div>
+      <div class="question">
+        <label>15. La muerte es una realidad que nos iguala a todos.</label>
+        <input type="number" name="q15" min="1" max="7">
+      </div>
+      <div class="question">
+        <label>16. El diálogo y el razonamiento son las mejores formas de enfrentar la injusticia.</label>
+        <input type="number" name="q16" min="1" max="7">
+      </div>
+      <div class="question">
+        <label>17. Las acciones basadas en principios éticos son necesarias para enfrentar la injusticia.</label>
+        <input type="number" name="q17" min="1" max="7">
+      </div>
+      <div class="question">
+        <label>18. La injusticia debe ser evaluada críticamente y racionalmente.</label>
+        <input type="number" name="q18" min="1" max="7">
+      </div>
+      <div class="question">
+        <label>19. La injusticia debe ser enfrentada con rebelión contra los valores tradicionales.</label>
+        <input type="number" name="q19" min="1" max="7">
+      </div>
+      <div class="question">
+        <label>20. Luchar y activismo son esenciales para enfrentar la injusticia.</label>
+        <input type="number" name="q20" min="1" max="7">
+      </div>
+      <button type="button" onclick="generateChart()">Generar Gráfico</button>
+    </form>
+    <canvas id="spiderChart"></canvas>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
